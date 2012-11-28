@@ -14,9 +14,9 @@ Setup
 * The implementation was done on SBCL, its home page has information on how to install.
 * You can get [quicklisp](http://www.quicklisp.org/) to manage the dependencies for you.  The two packages you need are "cl-json" and "drakma". 
 
-```common lisp
-* (quicklisp-quickstart:install)
-* (ql:quickload "cl-json")
-* (ql:quickload "drakma")
-* (ql:add-to-init-file)
+```commonlisp
+  * (quicklisp-quickstart:install)
+  * (ql:quickload "cl-json")
+  * (ql:quickload "drakma")
+  * (ql:add-to-init-file)
 ```
