@@ -20,3 +20,12 @@ Setup
   * (ql:quickload "drakma")
   * (ql:add-to-init-file)
 ```
+
+Run
+---
+```commonlisp
+$ sbcl --load avgcalc.lisp
+* (get-average-price :pair "EUR_USD" :days 10)
+
+1.2890904
+```

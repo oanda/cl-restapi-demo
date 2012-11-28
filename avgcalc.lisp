@@ -7,7 +7,7 @@
 
 (defun get-candles (&key pair days)
   (json:decode-json-from-string
-   (drakma:http-request (concatenate 'string *base-url* "/v1/instruments/" pair "/candles?count=" (format nil "~S" days) "&gran=D")
+   (drakma:http-request (concatenate 'string *base-url* "/v1/instruments/" pair "/candles?count=" (format nil "~S" days) "&granularity=D")
 			:method :get)))
 
 (defun get-average-price (&key pair days)
