@@ -1,7 +1,7 @@
 cl-restapi-demo
 ===============
 
-This is a common lisp implementation of average price calculator for the past X days.  The average being used is the average of high mid and low mid.  The implementation relies on OANDA API for rates.  For details on the API, go [here](https://github.com/oanda/apidocs).
+This is a common lisp implementation of average price calculator for the past X days.  The average being used is the average of high mid and low mid.  The implementation relies on [OANDA API](https://github.com/oanda/apidocs) for rates.
 
 Dependency
 ----------
